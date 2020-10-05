@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cuprum';
+}
+
+h1, h2, h3 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.sida1 {
+    background-color: #1f7a8c;
+}
+
+.sida2 {
+    background-color: #022b3a;
+}
+
+p {
+    color: #09e85e;
+    text-align: center;
+    border-radius: 15px;
+    border-style: none;
+}
+
+label {
+    font-family: 'Titillium Web', sans-serif;
+    color: #09e85e;
+}
+
+.btn {
+    font-family: 'Titillium Web', sans-serif;
+    width: 80%;
+    height: 10vh;
+    background-color: #022b3a;
+    color: #09e85e;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.btn2 {
+    font-family: 'Titillium Web', sans-serif;
+    width: 240px;
+    height: 60px;
+    background-color: #1f7a8c;
+    color: #F9F9F9;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 800;
+    text-align: center;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+#name {
+    border: none;
+    border-bottom: 2px solid #09e85e;
+    background-color: #022b3a;
+    border-radius: 0%;
+    width: 80%;
+}
+#email {
+    border: none;
+    border-bottom: 2px solid #09e85e;
+    background-color: #022b3a;
+    border-radius: 0%;
+    width: 80%;
+}
+
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #F9F9F9;
+    outline: none;
+    border-radius: 20px;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #09e85e;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #09e85e;
+    border: 1px solid #1f7a8c;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #022b3a;
+}
+
+span {
+    color: #09e85e;
+}
+.bg-primary{
+    background-color: #1f7a8c !important;
+}
+.text-header {
+    color: #09e85e;
+}
+
+@media screen and (min-width: 992px) {
+    .products {
+        
+        width: 45%;
+        height: 45%;
+    }
+    .logo {
+        width: 100%;
+        height: 100%;
+    }
+  }
